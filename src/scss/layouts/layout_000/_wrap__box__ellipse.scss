@@ -1,0 +1,47 @@
+.wrap__box__ellipse {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.wrap__ellipse__kl {
+  position: absolute;
+  width: 360px;
+}
+
+.wrap__ellipse__bn {
+  margin-top: -10px;
+  margin-left: 20px;
+  position: relative;
+  width: 360px;
+}
+
+.ellipse__img__v {
+  width: auto;
+  object-fit: contain;
+}
+
+.ellipse__img__n {
+  width: auto;
+  object-fit: contain;
+}
+
+.title__text__ona {
+  list-style: none;
+  font-size: 64px;
+  color: #536f9f;
+}
+
+.title__text__description {
+  list-style: none;
+  font-size: 32px;
+  color: #536f9f;
+}
+
+.box__wrap__ellipse__img {
+  flex: 1;
+}
+
+.wrap__Wrap__text {
+  flex: 1;
+}
