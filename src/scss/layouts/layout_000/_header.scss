@@ -1,0 +1,38 @@
+.heder__wrap {
+  max-width: 780px;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  flex-wrap: wrap;
+  background-color: #748ebc;
+}
+
+.header__li_info {
+  margin-left: auto;
+}
+
+.header__li {
+  padding: 1rem;
+}
+
+.header__logo {
+  width: 115px;
+}
+
+//   ============================== img
+
+.header__li_logo {
+  margin: 0;
+}
+
+.header__logo__img {
+  max-width: 100%;
+
+  object-fit: cover;
+}
+
+.header__logo__img:hover {
+  transform: scale(1.1); /* увеличивает изображение при наведении */
+}
