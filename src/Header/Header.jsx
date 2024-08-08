@@ -14,8 +14,8 @@ export default function Header() {
           </div>
         </li>
         <li className="header__li header__li_info">Про Нас</li>
-        <li className="header__li">Контакты</li>
-        <li className="header__li">Заказать</li>
+        <li className="header__li">Контакти</li>
+        <li className="header__li">Замовити</li>
         <li className="header__li">
           <Switch />
         </li>

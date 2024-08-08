@@ -30,13 +30,13 @@ export default function Window() {
           <div className={`modal__content ${isSubmitted ? "submitted" : ""}`}>
             {isSubmitted ? (
               <>
-                <h2 className="title__h2">Спасибо за заказ</h2>
+                <h2 className="title__h2">Дякую за замовлення.</h2>
                 <p className="title__window__p">
-                  Ваш заказ успешно оформлен. Мы свяжемся с вами в ближайшее
-                  время!
+                  Ваше замовлення успішно оформлено. Ми зв'яжемося з вами
+                  найближчим часом!
                 </p>
                 <button onClick={closeModal} className="close__btn">
-                  Закрыть
+                  Закрити
                 </button>
               </>
             ) : (
@@ -53,7 +53,7 @@ export default function Window() {
                     placeholder="Введите ваш телефон"
                     required
                   />
-                  <button type="submit">Отправить</button>
+                  <button type="submit">Надіслати</button>
                 </form>
               </>
             )}
