@@ -30,7 +30,7 @@ export default function Window() {
           <div className={`modal__content ${isSubmitted ? "submitted" : ""}`}>
             {isSubmitted ? (
               <>
-                <h2 className="title__h2">Дякую за замовлення.</h2>
+                <h2 className="title__h2">Дякую за замовлення!</h2>
                 <p className="title__window__p">
                   Ваше замовлення успішно оформлено. Ми зв'яжемося з вами
                   найближчим часом!
