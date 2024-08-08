@@ -50,7 +50,7 @@ export default function Window() {
                   <input
                     className="modal__input"
                     type="tel"
-                    placeholder="Введите ваш телефон"
+                    placeholder="Введiть ваш телефон"
                     required
                   />
                   <button type="submit">Надіслати</button>
